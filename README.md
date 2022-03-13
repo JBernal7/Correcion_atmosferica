@@ -1,0 +1,4 @@
+# Correcion_atmosferica
+
+La presente tarea de corrección atmosférica tiene por objeto eliminar el incremento de la radiancia que le llega al sensor a causa de la interacción de energía electromagnética reflejada o emitida por las cubiertas con la atmósfera. Esta corrección resulta fundamental si queremos realizar, por ejemplo, combinaciones lineales entre bandas, transformar los Niveles Digitales (ND) de la imagen en magnitudes físicas o realizar estudios multitemporales.
+Si bien de forma paralela a la adquisición de las imágenes han de existir medidas de corrección, existen métodos basados en la predicción del efecto atmosférico que nos permiten hacerlo a partir de los datos de la imagen, como (1) la corrección del histograma por su valor mínimo, y (2) el método de Substracción de Píxeles Oscuros (SPO). En este ejercicio implementaremos ambos métodos utilizando para ello el software de código abierto QGIS 3.16.
